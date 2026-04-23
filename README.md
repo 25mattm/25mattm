@@ -39,8 +39,6 @@ A RESTful banking API with 8 endpoints, pagination, transfers, analytics, and tr
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=25mattm&hide_border=true)](https://git.io/streak-stats)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=25mattm&theme=flat&no-frame=true&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
-
 ---
 
 ## 📫 Connect
