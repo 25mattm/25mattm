@@ -44,7 +44,7 @@ Native reading guide app built for both macOS (Swift) and Windows (C#). Designed
 
 **Tech:** Swift · C# · WinForms · GitHub Actions · Native UI frameworks  
 **Highlights:** Click-through overlay · Multi-screen support · Accessibility-first design · Settings persistence  
-🔗 [Repository](https://github.com/25mattm/Highlighter) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)]()
+🔗 [Repository](https://github.com/25mattm/Highlighter) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/25mattm/Highlighter/blob/main/LICENSE)
 
 ---
 
@@ -77,7 +77,7 @@ Production banking API with advanced transaction handling — 8 RESTful endpoint
 
 ![Matthew's GitHub Stats](https://github-readme-stats.vercel.app/api?username=25mattm&show_icons=true&theme=default&hide_border=true)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=25mattm&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=25mattm&hide_border=true)](https://github.com/25mattm)
 
 ---
 
