@@ -11,37 +11,69 @@ When I'm not coding, I coach competitive kayak athletes at the Kennebecasis Padd
 
 ## 🛠️ Skills
 
-**Languages:** Java · Python · Swift · JavaScript · SQL  
-**Frameworks & Libraries:** SwiftUI · SwiftData · FastAPI · SQLAlchemy · React  
-**Tools:** Git · MySQL · Postman · IntelliJ IDEA · Xcode  
+**Languages:** Java · Python · Swift · C# · JavaScript · SQL  
+**Frameworks & Libraries:** Spring Boot · FastAPI · SwiftUI · SwiftData · React · SQLAlchemy · Hibernate  
+**Databases & Persistence:** MySQL · SwiftData · JSON Configuration  
+**Tools & Platforms:** Git · GitHub Actions · Maven · Xcode · IntelliJ IDEA · Vite · Postman  
+**Concepts:** REST APIs · Concurrency (`async/await`, transactions) · Data Persistence · Cross-platform Development · CSV/JSON Import-Export · Accessibility Design
 
 ---
 
-## 📂 Projects
+## 📂 Featured Projects
 
-### 🗓️ CoachTracker
-A native macOS app built with Swift, SwiftUI, and SwiftData for managing athlete scheduling, attendance, and performance tracking.  
-`Swift` `SwiftUI` `SwiftData` `macOS` | [Repository](https://github.com/25mattm/Coach-Tracker)
+### 🗓️ CoachTracker — iOS Athlete Management
+A production-quality native iOS app for managing rosters, scheduling training sessions, tracking attendance, and logging athlete performance. Modern Swift development with local persistence, async weather API integration, charts, and unit testing.
 
-### 🎓 Course Scheduler
-A full-stack course scheduling application for managing university course selections and timetables.  
-`Java` `JavaScript` | [Backend](https://github.com/25mattm/course-scheduler) | [Frontend](https://github.com/25mattm/course-scheduler-frontend)
+**Tech:** Swift · SwiftUI · SwiftData · async/await · Swift Charts · URLSession  
+**Highlights:** CSV import/export · Live weather forecasts · Attendance analytics · Local notifications  
+🔗 [Repository](https://github.com/25mattm/Coach-Tracker)
 
-### 🖱️ Highlighter
-Cross-platform click-through highlight bar that follows your mouse across screens (macOS + Windows).  
-`Swift` `macOS` `Windows` | [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/25mattm/Highlighter)
+---
+
+### 🎓 Course Scheduler — Full-Stack Application
+A complete full-stack project showcasing database design, REST API development, and modern frontend state management. Java/Spring Boot backend handles many-to-many student-course relationships; React frontend delivers real-time enrollment synchronization.
+
+**Tech:** Java · Spring Boot · React · MySQL · Hibernate · Maven  
+**Highlights:** Many-to-many data modeling · RESTful API design · React hooks · CORS integration  
+🔗 [Backend](https://github.com/25mattm/course-scheduler) | [Frontend](https://github.com/25mattm/course-scheduler-frontend)
+
+---
+
+### 🖱️ Highlighter — Cross-Platform Accessibility Tool
+Native reading guide app built for both macOS (Swift) and Windows (C#). Designed specifically for readers with dyslexia, ADHD, and visual tracking difficulties. Click-through accessibility bar that never interrupts workflow. Published automatically via GitHub Actions CI/CD.
+
+**Tech:** Swift · C# · WinForms · GitHub Actions · Native UI frameworks  
+**Highlights:** Click-through overlay · Multi-screen support · Accessibility-first design · Settings persistence  
+🔗 [Repository](https://github.com/25mattm/Highlighter) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)]()
+
+---
 
 ### 📈 Stock Trading Simulator
-A simulated stock trading platform with real-time portfolio management and market data.  
-`Python` `API Integration`
+Real-time portfolio management and market data integration platform.
 
-### 🏦 RBC Mini Banking Backend
-A RESTful banking API with 8 endpoints, pagination, transfers, analytics, and transaction concurrency using row locking and isolation levels.  
-`FastAPI` `SQLAlchemy` `MySQL`
+**Tech:** Python · API Integration
 
 ---
 
-## 📊 GitHub Stats
+### 🏦 RBC Mini Banking Backend
+Production banking API with advanced transaction handling — 8 RESTful endpoints, pagination, fund transfers, account analytics, and transaction concurrency via row locking and database isolation levels.
+
+**Tech:** FastAPI · SQLAlchemy · MySQL · Concurrency Control
+
+---
+
+## 💡 What I Bring
+
+🎯 **Accessibility-First Mindset** — Designed Highlighter for readers with dyslexia, ADHD, and visual tracking difficulties  
+🏗️ **Full-Stack Capabilities** — Comfortable building Spring Boot backends, designing relational databases, connecting React frontends  
+⚡ **Modern Concurrency** — Swift `async/await`, Java transaction isolation, async networking and error handling  
+🚀 **Production-Ready Code** — Published native macOS and Windows apps with automated CI/CD pipelines  
+✅ **Test-Driven Development** — Unit tests for business logic, validation, and edge cases  
+🧹 **Clean Architecture** — Feature-organized codebases with clear separation of concerns
+
+---
+
+## 📊 GitHub Activity
 
 ![Matthew's GitHub Stats](https://github-readme-stats.vercel.app/api?username=25mattm&show_icons=true&theme=default&hide_border=true)
 
@@ -49,8 +81,18 @@ A RESTful banking API with 8 endpoints, pagination, transfers, analytics, and tr
 
 ---
 
-## 📫 Connect
+## 📫 Let's Connect
 
-[![Dalhousie](https://img.shields.io/badge/Dalhousie_University-gold?style=flat&logoColor=black)](https://dal.ca)
-[![GitHub](https://img.shields.io/badge/GitHub-25mattm-181717?style=flat&logo=github)](https://github.com/25mattm)
-[![Email](https://img.shields.io/badge/Email-matthew.mullett@dal.ca-blue?style=flat&logo=gmail)](mailto:matthew.mullett@dal.ca)
+| | |
+|---|---|
+| 🎓 **University** | [Dalhousie University](https://dal.ca) |
+| 💻 **GitHub** | [@25mattm](https://github.com/25mattm) |
+| 📧 **Email** | [matthew.mullett@dal.ca](mailto:matthew.mullett@dal.ca) |
+
+---
+
+<div align="center">
+
+**Passionate about building software that solves real problems** 🚀
+
+</div>
