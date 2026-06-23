@@ -11,17 +11,25 @@ When I'm not coding, I coach competitive kayak athletes at the Kennebecasis Padd
 
 ## 🛠️ Skills
 
-**Languages:** Java · Python · Swift · SQL  
-**Frameworks & Libraries:** SwiftUI · SwiftData · FastAPI · SQLAlchemy  
+**Languages:** Java · Python · Swift · JavaScript · SQL  
+**Frameworks & Libraries:** SwiftUI · SwiftData · FastAPI · SQLAlchemy · React  
 **Tools:** Git · MySQL · Postman · IntelliJ IDEA · Xcode  
 
 ---
 
 ## 📂 Projects
 
-### 🗓️ CoachTracker *(In Progress)*
+### 🗓️ CoachTracker
 A native macOS app built with Swift, SwiftUI, and SwiftData for managing athlete scheduling, attendance, and performance tracking.  
-`Swift` `SwiftUI` `SwiftData` `macOS`
+`Swift` `SwiftUI` `SwiftData` `macOS` | [Repository](https://github.com/25mattm/Coach-Tracker)
+
+### 🎓 Course Scheduler
+A full-stack course scheduling application for managing university course selections and timetables.  
+`Java` `JavaScript` | [Backend](https://github.com/25mattm/course-scheduler) | [Frontend](https://github.com/25mattm/course-scheduler-frontend)
+
+### 🖱️ Highlighter
+Cross-platform click-through highlight bar that follows your mouse across screens (macOS + Windows).  
+`Swift` `macOS` `Windows` | [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/25mattm/Highlighter)
 
 ### 📈 Stock Trading Simulator
 A simulated stock trading platform with real-time portfolio management and market data.  
