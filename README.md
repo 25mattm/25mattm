@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=460&lines=Hi%2C+I'm+Matthew+%F0%9F%91%8B;CS+%40+Dalhousie+%7C+Class+of+2027;I+ship+things+people+actually+use)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=460&lines=Hi%2C+I'm+Matthew+%F0%9F%91%8B;CS+%40+Dalhousie+%7C+;I+ship+things+people+actually+use)](https://git.io/typing-svg)
 
 Computer Science student at **Dalhousie University**, from Quispamsis, NB.
 
