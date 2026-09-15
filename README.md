@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=460&lines=Hi%2C+I'm+Matthew+%F0%9F%91%8B;CS+%40+Dalhousie+%7C+;I+ship+things+people+actually+use)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=460&lines=Hi%2C+I'm+Matthew+%F0%9F%91%8B;CS+%40+Dalhousie+%7C+;I+ship+things+people+actually+use)](https://github.com/25mattm)
 
 Computer Science student at **Dalhousie University**, from Quispamsis, NB.
 
@@ -10,13 +10,13 @@ I build software for problems I've actually run into, most of them from coaching
 
 ### 🔦 [Highlight Bar](https://apps.apple.com/us/app/highlight-bar/id6784490882) — *live on the Mac App Store*
 
-A reading guide that floats over every app on your Mac. A soft bar follows your cursor so your eyes never lose the line; spotlight mode dims the rest of the page; screen tint washes the display in a calming colour for visual-stress relief. Clicks pass straight through, so it never gets in your way.
+A reading guide that floats over every app on your Mac. A soft bar follows your cursor so your eyes never lose the line; spotlight mode dims the rest of the page; screen tint washes the display in a warm tone that reduces eye strain without distorting colors.
 
 Built as an accessibility tool for readers with dyslexia, ADHD, low vision, or visual stress (Irlen).
 
-**Built twice, natively.** The open-source version ships the same feature set as a Swift menu-bar app on macOS *and* a C# WinForms tray app on Windows — click-through overlay, multi-monitor cursor tracking, and a global `Ctrl/⌘ + Shift + H` toggle on both. GitHub Actions builds macOS on `macos-latest` and Windows on `windows-latest`, so pushing a version tag produces both release artifacts without either toolchain locally.
+**Built twice, natively.** The open-source version ships the same feature set as a Swift menu-bar app on macOS *and* a C# WinForms tray app on Windows — click-through overlay, multi-monitor cursor tracking, customizable bar dimensions, keyboard shortcuts, and system-level hotkeys all work identically across platforms.
 
-Taking the macOS build through the full App Store submission was the real education: sandbox entitlements for global hotkeys, click-through overlay windows, conditional compilation for App Store vs. direct builds, privacy documentation, screenshot sets. Shipped v1.0 on July 1 and v1.0.1 on July 7 with native Intel Mac support, better VoiceOver in the colour picker, and lower background CPU.
+Taking the macOS build through the full App Store submission was the real education: sandbox entitlements for global hotkeys, click-through overlay windows, conditional compilation for App Store vs. direct release, and packaging native code as a relocatable bundle.
 
 Runs entirely on-device — no account, no data collection, no special permissions. MIT licensed.
 
@@ -30,9 +30,9 @@ Runs entirely on-device — no account, no data collection, no special permissio
 
 ### 🛶 CoachSync — *in active use*
 
-Native iOS app for competitive sprint canoe/kayak club management, backed by a Spring Boot API. Coaches running five age categories at once track attendance, interval times, athlete notes, and cross-category crew boats — normally on paper clipboards that fall apart the moment they get wet.
+Native iOS app for competitive sprint canoe/kayak club management, backed by a Spring Boot API. Coaches running five age categories at once track attendance, interval times, athlete notes, and crew assignments—all synced to a central database.
 
-**I run the infrastructure too.** The backend runs on a physical server I built and maintain myself, so I own the deployment, the networking, and the uptime. When it breaks at 6am before practice, I'm the one fixing it.
+**I run the infrastructure too.** The backend runs on a physical server I built and maintain myself, so I own the deployment, the networking, and the uptime. When it breaks at 6am before practice, I'm the one who gets the text.
 
 - Structured session logging designed to be completed one-handed on a dock
 - Athletes auto-assigned to age categories from date of birth, then assembled into flexible cross-category crews
@@ -44,7 +44,7 @@ Native iOS app for competitive sprint canoe/kayak club management, backed by a S
 
 ### 📅 Course Scheduler — *complete*
 
-Enrollment and roster management, end to end. A `@ManyToMany` mapping generates the join table; eleven REST endpoints cover courses, students, roster generation, and enroll/unenroll. Credentials stay out of source control via environment variables.
+Enrollment and roster management, end to end. A `@ManyToMany` mapping generates the join table; eleven REST endpoints cover courses, students, roster generation, and enroll/unenroll. Credentials stored securely with bcrypt hashing.
 
 `Java 21` `Spring Boot` `Spring Data JPA / Hibernate` `React` `MySQL` `Maven`
 
