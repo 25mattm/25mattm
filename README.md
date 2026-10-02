@@ -14,7 +14,7 @@ A reading guide that floats over every app on your Mac. A soft bar follows your 
 
 Built as an accessibility tool for readers with dyslexia, ADHD, low vision, or visual stress (Irlen).
 
-**Built twice, natively.** The open-source version ships the same feature set as a Swift menu-bar app on macOS *and* a C# WinForms tray app on Windows — click-through overlay, multi-monitor cursor tracking, customizable bar dimensions, keyboard shortcuts, and system-level hotkeys all work identically across platforms.
+**Built twice, natively.** The open-source version is a Swift menu-bar app on macOS *and* a C# WinForms tray app on Windows. Both share the core: click-through overlay, multi-monitor cursor tracking, adjustable size, color, and opacity, and a global show/hide hotkey. The macOS app leads with extras like reading profiles, spotlight and tint overlays, and lock mode, and the Windows port catches up next.
 
 Taking the macOS build through the full App Store submission was the real education: sandbox entitlements for global hotkeys, click-through overlay windows, conditional compilation for App Store vs. direct release, and packaging native code as a relocatable bundle.
 
