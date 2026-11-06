@@ -14,15 +14,15 @@ A reading guide that floats over every app on your Mac. A soft bar follows your 
 
 Built as an accessibility tool for readers with dyslexia, ADHD, low vision, or visual stress (Irlen).
 
-**Built twice, natively.** The open-source version is a Swift menu-bar app on macOS *and* a C# WinForms tray app on Windows. Both share the core: click-through overlay, multi-monitor cursor tracking, adjustable size, color, and opacity, and a global show/hide hotkey. The macOS app leads with extras like reading profiles, spotlight and tint overlays, and lock mode, and the Windows port catches up next.
+**Built twice, natively.** The open-source edition is a Swift menu-bar app on macOS *and* a C# WinForms tray app on Windows. Both share the core: click-through overlay, multi-monitor cursor tracking, adjustable size, color, and opacity, and a global show/hide hotkey. The App Store version builds on that core with reading profiles, spotlight and tint overlays, custom colors, per-app auto-enable, and lock mode.
 
 Taking the macOS build through the full App Store submission was the real education: sandbox entitlements for global hotkeys, click-through overlay windows, conditional compilation for App Store vs. direct release, and packaging native code as a relocatable bundle.
 
-Runs entirely on-device — no account, no data collection, no special permissions. MIT licensed.
+Runs entirely on-device — no account, no data collection, no special permissions. The open-source edition is MIT licensed.
 
 `Swift` `SwiftUI` `C#` `WinForms` `macOS system APIs` `App Sandbox` `GitHub Actions` `Accessibility`
 
-[📱 App Store](https://apps.apple.com/us/app/highlight-bar/id6784490882) · [💻 Source](https://github.com/25mattm/Highlighter)
+[📱 App Store](https://apps.apple.com/us/app/highlight-bar/id6784490882) · [💻 Open-source edition](https://github.com/25mattm/Highlighter)
 
 ---
 
